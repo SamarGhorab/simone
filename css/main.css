@@ -1,0 +1,409 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.settings {
+  
+    top:40%
+}
+
+.home{
+  
+    background-image: url(../img/intro-bg.jpg);
+    height: 100vh;
+  width:100% 100%;
+}
+.sa{
+    background-color: rgba(0, 0, 0,0.7);
+    height: 100vh;
+    
+}
+.nav-link{
+    color:#fff;
+    font-size: 17;
+    
+}
+
+.navbar-nav{
+    margin: auto;
+
+}
+.btn-outline-success ,.border-outline-success{
+    color: #20c997;
+    border-color: #20c997;
+}
+ 
+.caption .btn{
+    width: 150px;
+}
+
+.line{
+    width: 7%;
+    border-bottom: 3px solid #20c997;
+  
+}
+.nav-link:hover{
+color: #20c997;
+}
+.navbar:hover{
+    background-color: black;
+}
+.info-lf span{
+    color: #20c997;
+}
+.info-lf p{
+    font-size: 17px;
+    color: #4c4d4d;
+}
+.info-rt ul{
+    list-style-type: none;
+}
+.info-rt span{
+    color: #4c4d4d;
+    font-weight: bold;
+}
+.info-rt li{
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #4c4d4d;
+    font-size: 17px;
+
+}
+
+.info-rt .vi{
+    color: #20c997;
+
+}
+.info-rt .btn-lg-success{
+    background-color: #20c997;
+}
+.info-rt  .btn{
+    width: 200px;
+    height: 50;
+    
+}
+.info-rt button .btn{
+    border-bottom: none;
+}
+@media  screen and (max-width:568px) {
+
+    .info-lf ,.info-rt  
+    {
+        width: 100% !important;
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+    .info-lf,.info-rt
+    {
+        width: 100%;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+    .info-lf,.info-rt
+    {
+        width: 50% !important;
+    }
+}
+
+.target div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.target h6{
+    color: #4c4d4d;
+
+}
+
+@media  screen and (max-width:568px) {
+
+    .target div
+    {
+        width: 100% ;
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+    .target div
+    {
+        width: 50%;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+    .target div
+    {
+        width: 25%;
+    }
+}
+.materials-lf { 
+    width:35%;
+    margin-bottom: 50;
+}
+.materials{
+    margin-bottom: 25;
+}
+.materials img{
+    margin-right: 20;
+}
+.materials p{
+    font-size: 17px;
+    color: #4c4d4d;
+
+}
+@media  screen and (max-width:568px) {
+
+     .materials-lf
+    {
+        width: 100%;
+    
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+     .materials-lf
+    {
+        width: 100%;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+     .materials-lf
+    {
+        width: 50%;
+    }
+}
+
+.resume .content-lf{
+    width: 40%;
+
+}
+.content-lf .content{
+    padding: 20;
+}
+.resume .content-lf .content span {
+    background-color: #20c997;
+    border:1px solid #20c997;
+    border-radius: 5px;
+    padding:5 12;
+    color: #fff;
+    
+}
+
+.resume .content-lf .content h6{
+    margin-top:10;
+    color: #dc3545;
+    font-weight: 400;
+}
+.resume .content-lf .content h5{
+    margin-top: 15px;
+}
+@media  screen and (max-width:568px) {
+
+    .content-lf .content{
+        width: 100% ;
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+    .content
+    {
+        width: 50%;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+    .content
+    {
+        width: 25%;
+    }
+}
+.member{
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    transition: ALL 0.5s;
+   
+}
+.work .member .caption{
+position:absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0,0.7);
+opacity: 0;
+transition: all 0.5s;
+
+}
+.work .member:hover .caption{
+    opacity: 1;
+   
+}
+.work .member:hover img{
+    transform: scale(1.02);
+}
+
+
+
+.skills-1{
+    width: 40%;
+}
+.brdr-1{
+   
+  
+   height: 8px;
+   background:linear-gradient(to right,#20c997 65%,#eaeaea 35%);
+
+
+}
+.brdr-2{
+    height: 8px;
+   background:linear-gradient(to right,#20c997 95%,#eaeaea 5%);
+   
+
+}
+.brdr-3{
+    height: 8px;
+   background:linear-gradient(to right,#20c997 80%,#eaeaea 20%);
+
+}
+
+.brdr-4{
+   
+  
+    height: 8px;
+    background:linear-gradient(to right,#20c997 70%,#eaeaea 30%);
+ 
+ 
+ }
+ .brdr-5{
+     height: 8px;
+    background:linear-gradient(to right,#20c997 60%,#eaeaea 40%);
+ 
+ }
+ .brdr-6{
+     height: 8px;
+    background:linear-gradient(to right,#20c997 99%,#eaeaea 1%);
+ 
+ }
+ @media  screen and (max-width:568px) {
+
+    .member{
+        width: 100% !important;
+   
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+    .member{
+      
+        width: 50% !important;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+    .member
+    {
+        width: 25% !important;
+    }
+}
+ .skills .cv{
+     color: #20c997;
+ }
+
+.details{
+    list-style-type: none;
+}
+.details li{
+    margin-right: 20px;
+    color: #7b8084;
+}
+.details li:hover{
+    color: #20c997;
+    font-size: 17px;
+}
+
+.client-lf {
+    width: 35%;
+}
+.clients-info h6{
+    color:#7b8084 ;
+}
+.circl-1 {
+    width:20px;
+    height:20px;
+    background: radial-gradient( #20c997, white);
+    border: 1px solid #20c997;
+}
+.circl-2{
+    width: 10;
+    height:10px;
+    background-color: #7b8084;
+   
+
+}
+
+.addresss ul{
+    list-style-type: none;
+}
+.addresss ul li{
+    color: #4c4d4d;
+    font-size: 18;
+}
+.addresss ul li h4{
+    color: #252b33;
+
+}
+.commnts{
+    width: 60%;
+}
+form input{
+    width: 43%;
+    height: 40px;
+    border: 2px solid #eaeaea;
+
+}
+form textarea{
+    width: 90%;
+    border: 2px solid #eaeaea;
+
+}
+.commnts button {
+    background-color: #20c997 ;
+    border: 1px solid #20c997;
+    padding-right:1em ;
+
+}
+.mark{
+    color:#20c997;
+}
+.last{
+    font-size: 17px;
+    font-weight: 400;
+}
+.last span:hover{
+    color: #20c997;
+}
+@media  screen and (max-width:568px) {
+
+    .get ul ,.get .commnts {
+        width: 100% ;
+    }
+}    
+@media  screen and (min-width:569px) and (max-width:769px){
+
+    .get ul ,.get .commnts
+    {
+        width: 50%;
+    }
+}
+@media  screen and (min-width:769px) and (max-width:992px){
+    .get ul ,.get .commnts
+    {
+        width: 25%;
+    }
+}
